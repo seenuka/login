@@ -1,0 +1,77 @@
+.login
+{
+    background-image: url('https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    padding: 30px;
+    margin-top: 61px;
+}
+.container
+{
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    height: 500px;
+    width: 500px;
+    background-color: rgba(158, 147, 147, 0.1);
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.loginheading{
+    font-family: Lyon;
+    font-weight: 700;
+    font-style: normal;
+    color: #0d3f5e;
+    font-size: 2.625rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.content h3{
+    font-family: Effra,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    margin-left: 2%;
+}
+.content  input{
+    border: 1px solid #0d3f5e;
+    display: flex;
+    width: 70%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff
+}
+.signup
+{
+    color:ghostwhite;
+    margin-top: -4.5%;
+    margin-left: 29%;
+    cursor: pointer;
+}
+.signup:hover
+{
+    text-transform: uppercase;
+}
+.button
+{
+    background-color: #0a8552;
+    border: 1px solid #0a8552;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:23px;
+
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+.fp a{
+    text-decoration: none;
+}
